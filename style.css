@@ -4,7 +4,7 @@ body {
     width: auto;
 }
 
-header {
+header, .first {
     display: flex;
     justify-content: space-between;
     background-color: #1f2937;
@@ -17,7 +17,7 @@ header {
     font-size: 24px;
     font-weight: 700;
     flex-shrink: 0;
-    margin: 0 70px;
+    margin: 0 100px;
 }
 
 ul {
@@ -26,9 +26,65 @@ ul {
     gap: 16px;
     color: #E5E7EB;
     font-size: 18px;
-    margin: 0 70px;
+    margin: 0 100px;
 }
 
 li {
     flex-shrink: 0;
+}
+
+.first {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px 100px;
+    justify-content: center;
+    gap: 24px;
+}
+
+.left/*, .right*/ {
+    flex: 1;
+}
+
+
+h1 {
+    color: #F9FAF8;
+    font-weight: bolder;
+    font-size: 48px;
+    margin-bottom: 0;
+}
+
+.left .text {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+
+.right img {
+    height: 500px;
+    width: auto;
+}
+
+.right {
+    display: flex;
+    justify-content: center;
+}
+
+.left {
+    max-width: 450px;
+    max-height: 230px;
+    margin-bottom: 10px;
+    p
+    
+}
+
+button {
+    background-color: #3882f6;
+    border: 0;
+    height: 40px;
+    width: 150px;
+    font-size: 16px;
+    color: #E5E7EB;
+    border-radius: 12px;
+    font-weight: bold;
+    margin-top: 10px;
 }
