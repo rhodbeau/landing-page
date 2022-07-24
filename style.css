@@ -4,7 +4,7 @@ body {
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-header, .first, footer {
+header, .first {
     display: flex;
     justify-content: space-between;
     background-color: #1f2937;
@@ -24,15 +24,10 @@ ul {
     list-style: none;
     display: flex;
     gap: 16px;
-    color: #E5E7EB;
-    font-size: 18px;
     margin: 0 100px;
     flex-wrap: wrap;
 }
 
-li {
-    flex-shrink: 0;
-}
 
 .first {
     display: flex;
@@ -189,4 +184,21 @@ blockquote {
     flex-direction: column;
     flex-shrink: 0;
     
+}
+
+footer {
+    color: #F9FAF8;
+    font-size: 20px;
+    height: 85px;
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
 }
