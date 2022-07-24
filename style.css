@@ -1,7 +1,6 @@
 body {
     margin: 0;
     height: 100vh;
-    width: auto;
 }
 
 header, .first {
@@ -27,6 +26,7 @@ ul {
     color: #E5E7EB;
     font-size: 18px;
     margin: 0 100px;
+    flex-wrap: wrap;
 }
 
 li {
@@ -95,17 +95,17 @@ button {
     align-items: center;
 }
 .info {
-    width: 195px;
+    width: 250px;
     display: flex;
     flex-direction: column;
     gap: 10px;
     text-align: center;
-    justify-content: center;
+    min-height: 270px;
 }
 
 .info img {
     height: 200px;
-    width: 190px;
+    width: auto;
     border-radius: 12px;
 }
 
@@ -144,4 +144,13 @@ blockquote {
     width: 480px;
     display: flex;
     justify-content: flex-end;
+}
+
+.fourth {
+    min-height: 300px;
+}
+
+.action {
+    background-color: #3882f6;
+    display: flex;
 }
