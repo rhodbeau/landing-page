@@ -91,7 +91,7 @@ button {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 16px;
+    gap: 24px;
     align-items: center;
 }
 .info {
@@ -123,4 +123,25 @@ h3 {
 
 .third {
     background-color: #E5E7EB;
+    min-height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+blockquote {
+    color: #1f2937;
+    font-size: 36px;
+    font-style: italic;
+    margin-bottom: 5px;
+}
+
+.quote {
+    font-size: 26px;
+    color: #1f2937;
+    font-weight: bold;
+    width: 480px;
+    display: flex;
+    justify-content: flex-end;
 }
